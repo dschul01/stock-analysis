@@ -13,11 +13,8 @@ There are two stocks, ENPH and RUN, over the period which are revealed as provid
 ![Formatting_Code.png](https://github.com/dschul01/stock-analysis/blob/main/Resources/Formatting_Code.png)
 ![Positive_Returns_YoY.png](https://github.com/dschul01/stock-analysis/blob/main/Resources/Positive_Returns_YoY.png)
 ### Refactoring Impacts
-The initial code was enhance using an index for all the ticker's performance measurement loops and resulted in significant time reductions to run the code as seen in the images below.  The time would be reduced even more as the number of stocks to analyze increases.
-
-
-
-
+The initial code was enhanceD using an index for all the ticker's performance measurement loops and resulted in significant time reductions to run the code as seen in the images below.  The time would be reduced even more as the number of stocks to analyze increases.
+![Refactored_Time_Impacts.png](https://github.com/dschul01/stock-analysis/blob/main/Refactored_Time_Impacts.png)
 ## Summary
 ### Advantages
 
