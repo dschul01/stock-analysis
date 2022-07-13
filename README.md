@@ -7,8 +7,11 @@ The purpose of this project was to utilize VBA to automate the task of analyzing
 ## Results
 ### Stock Performance Using Loops
 Twelve stocks were analyzed between the years 2017 and 2018.  The key objective was to automate the analysis rather than manually entering formulas.  Examples are provided which show the effectiveness of creating code to calculate stock performance measurements utilizing loops rather than using Excel functions which would have to be added as more stocks are evaluated.
+![Loop_Measurement.png](https://github.com/dschul01/stock-analysis/blob/main/Resources/Loop_Measurement.png)
 
-There are two stocks over the period which are revealed as the most profitable.  The code seen below makes it quite easy to visualize by highlighting the positive returns in green.
+There are two stocks, ENPH and RUN, over the period which are revealed as providing positive results YoY.  The code seen below makes it quite easy to visualize by highlighting the positive returns in green seen in the output.
+![Formatting_Code.png](https://github.com/dschul01/stock-analysis/blob/main/Resources/Formatting_Code.png)
+![Positive_Returns_YoY.png](https://github.com/dschul01/stock-analysis/blob/main/Resources/Positive_Returns_YoY.png)
 ### Refactoring Impacts
 The initial code was enhance using an index for all the ticker's performance measurement loops and resulted in significant time reductions to run the code as seen in the images below.  The time would be reduced even more as the number of stocks to analyze increases.
 
